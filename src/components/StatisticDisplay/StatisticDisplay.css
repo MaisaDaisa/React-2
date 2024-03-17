@@ -1,0 +1,12 @@
+.statistic-background {
+	background: rgb(92, 99, 75);
+	background: linear-gradient(
+		80deg,
+		rgba(92, 99, 75, 1) 40%,
+		rgba(124, 81, 60, 1) 40%,
+		rgba(124, 81, 60, 1) 70%,
+		rgba(43, 68, 60, 1) 70%,
+		rgba(43, 68, 60, 1) 85%,
+		rgba(123, 100, 61, 1) 85%
+	);
+}

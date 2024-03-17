@@ -1,0 +1,37 @@
+:root {
+    --clr-sidebar-background : #F2F2F2;
+    --clr-nature-green : #B4CD93;
+    --clr-default: #4C4C4C;
+    --clr-logout-red: #A65959;
+    --clr-unselected-text: #808080;
+    --clr-light-gray: #E6E6E6;
+    --clr-search-bar: #FAFAFA;
+  }
+  .sidebar-background {
+    background-color: var(--clr-sidebar-background);
+  }
+  
+  .nature-green {
+    color: var(--clr-nature-green);
+  }
+  
+  .default {
+    color: var(--clr-default);
+  }
+  
+  .logout-red {
+    color: var(--clr-logout-red);
+  }
+  
+  .unselected-text {
+    color: var(--clr-unselected-text);
+  }
+
+  .light-gray {
+    color: var(--clr-light-gray);
+  }
+  
+  .search-bar {
+    background-color: var(--clr-search-bar);
+    border: 1px solid var(--clr-light-gray);
+  }
