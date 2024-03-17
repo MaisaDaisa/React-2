@@ -19,7 +19,7 @@ const index = () => {
 					<h2 className="text-neutral-600 text-lg font-semibold leading-loose">
 						All artists
 					</h2>
-					<p class="text-zinc-400 text-xs font-normal leading-none mt-1">
+					<p className="text-zinc-400 text-xs font-normal leading-none mt-1">
 						Monitor artist sales, reviews, etc.
 					</p>
 				</div>

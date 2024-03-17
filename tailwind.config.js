@@ -14,6 +14,7 @@ export default {
         'red-bg': "#EDDEDE",
         'unselected-text': '#808080',
         'light-gray': '#E6E6E6',
+        'alt-gray': '#B3B3B3',
         'search-bar': '#FAFAFA',
         'table-main-row': "#F7F7F7",
         'table-secondary-row': "#FCFCFC",

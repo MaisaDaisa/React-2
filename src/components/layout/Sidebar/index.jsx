@@ -21,8 +21,8 @@ const Sidebar = () => {
         <SidebarNavLink source={Sales} title='Sales' />
       </div>
       <div className='flex flex-start flex-col gap-5 ml-2'>
-        <SidebarNavLink source={Setting} title='Settings' givenClassName='default' />
-        <SidebarNavLink source={Logout} title='Logout' givenClassName='logout-red' />
+        <SidebarNavLink source={Setting} title='Settings' givenClassName='default' allowHover={false}/>
+        <SidebarNavLink source={Logout} title='Logout' givenClassName='logout-red' allowHover={false}/>
       </div>
       <div></div>
     </div>
