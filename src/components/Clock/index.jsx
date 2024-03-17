@@ -2,11 +2,11 @@ import React from "react";
 import TimeDisplayer from "./TimeDisplayer";
 
 const index = () => {
-    console.log(Date.now())
+    let time = new Date();
 	return (
 		<div className="flex flex-row justify-between items-center bg-table-secondary-row rounded-md p-8">
 			<div className="flex flex-row gap-2">
-				<TimeDisplayer display="10" />
+				<TimeDisplayer display={time.getHours() - 12} />
 				<div className="flex flex-col gap-2 justify-center items-center">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +25,10 @@ const index = () => {
 						<circle cx="1" cy="1" r="1" fill="#4C4C4C" />
 					</svg>
 				</div>
-                <TimeDisplayer display="34" />
-                <TimeDisplayer display="PM" type='green'/>
+                <TimeDisplayer display={time.getMinutes()} />
+                <TimeDisplayer display={time.getHours() > 12 ? "PM" : "AM"} type='green'/>
 			</div>
-            <p className="text-default font-semibold leading-loose">11/05/2022</p>
+            <p className="text-lg font-semibold leading-loose">{time.getDate()} / {time.getMonth()+1} / {time.getFullYear()}</p>
 		</div>
 	);
 };
